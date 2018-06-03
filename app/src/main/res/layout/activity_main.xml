@@ -10,9 +10,6 @@
     >
 
 
-
-
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,34 +24,51 @@
 
 
     <Button
+        android:id="@+id/shuffle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:text="Shuffle New Deck"
         tools:layout_editor_absoluteX="213dp"
-        tools:layout_editor_absoluteY="13dp" />
+        tools:layout_editor_absoluteY="4dp"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="5dp"
+        android:layout_height="2dp"
         android:background="#A9A3A3"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="61dp" />
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="How Many Cards?"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="84dp" />
+        tools:layout_editor_absoluteY="70dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
+        android:onClick="shuffle"
+        android:id="@+id/draw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Draw Cards"
         tools:layout_editor_absoluteX="256dp"
-        tools:layout_editor_absoluteY="84dp" />
+        tools:layout_editor_absoluteY="70dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="145dp"
+        tools:ignore="MissingConstraints">
+
+    </android.support.v7.widget.RecyclerView>
 
 
 
