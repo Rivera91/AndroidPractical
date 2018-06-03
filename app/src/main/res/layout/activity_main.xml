@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:divider="?android:dividerHorizontal"
+    android:showDividers="middle"
+    >
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cards Remaining:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Shuffle New Deck"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#A9A3A3"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="How Many Cards?"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Draw Cards"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
