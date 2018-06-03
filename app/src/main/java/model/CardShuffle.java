@@ -1,6 +1,6 @@
 package model;
 
-public class Cards {
+public class CardShuffle {
 
 
     private String success;
@@ -8,6 +8,13 @@ public class Cards {
     private boolean shuffled;
     private int remaining;
 
+
+//    public CardShuffle(String success, String deck_id, boolean shuffled, int remaining) {
+//        this.success = success;
+//        this.deck_id = deck_id;
+//        this.shuffled = shuffled;
+//        this.remaining = remaining;
+//    }
 
     public String getSuccess() {
         return success;

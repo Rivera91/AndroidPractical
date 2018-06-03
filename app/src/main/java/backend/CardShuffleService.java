@@ -1,10 +1,10 @@
 package backend;
 
-import model.Cards;
+import model.CardShuffle;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
-public interface CardService {
+public interface CardShuffleService {
     @GET("api/deck/new/shuffle")
-    Call<Cards> getCard1();
+    Call<CardShuffle> getShuffle1();
 }

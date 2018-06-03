@@ -43,6 +43,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
+        android:inputType="number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="How Many Cards?"
@@ -61,6 +62,7 @@
         tools:ignore="MissingConstraints" />
 
     <android.support.v7.widget.RecyclerView
+        android:layout_marginRight="8dp"
         android:id="@+id/images"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
